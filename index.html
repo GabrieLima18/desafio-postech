@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <script src="script.js"></script>
 
   <div class="main_container">
     <header>
@@ -21,17 +22,17 @@
     </header> 
     <hr class="solid">
 
-    <form>
+    <form id="form">
       <label for="name_one">Nome</label><br>
       <input type="text" id="name_one" name="name_one"><br>
       <label for="name_two">Nome</label><br>
       <input type="text" id="name_two" name="name_two"><br>
       <label for="group_history">História do grupo</label><br>
-      <textarea name="group_history"rows="5"></textarea>
+      <textarea name="group_history" id="group_history" rows="5"></textarea>
     </form> 
   </div> 
   <div class="button_container">
-    <button type="button">Enviar</button> 
+    <button id="buttonSubmit" type="submit">Enviar</button> 
   </div> 
 
 </body>
